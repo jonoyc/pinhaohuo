@@ -220,5 +220,22 @@
     © 2015 yqphh.com All rights reserved. (苏ICP备15009948号-1)
 
 </div>
+<script>
+   var banner=document.getElementById('banner');
+   var ClientWidth=document.documentElement.clientWidth;
+  window.onload=function(){
+
+   banner.style.Width=ClientWidth+'px';
+   banner.style.Height='auto';
+  };
+   
+   window.onresize=function(){
+       banner.style.Width=ClientWidth+'px';
+       banner.style.Height='auto';
+   }
+
+ 
+
+</script>
 </body>
 </html>
